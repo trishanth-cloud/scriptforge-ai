@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+frontend/.next/
+out/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+.venv/
+.pytest_cache/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env*.local
+backend/.env
+*.env
+
+# SQLite Databases & Logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+*.log
+
+# Uploads & Outputs
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+uploads/
+outputs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
